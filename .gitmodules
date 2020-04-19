@@ -4,3 +4,9 @@
 [submodule "bootcamp-2"]
 	path = bootcamp-2
 	url = https://github.com/tomtomdurrant/bootcamp-2.git
+[submodule "bootcamp-1"]
+	path = bootcamp-1
+	url = https://github.com/tomtomdurrant/bootcamp-1.git
+[submodule "intro-bootcamp-2019"]
+	path = intro-bootcamp-2019
+	url = https://github.com/tomtomdurrant/intro-bootcamp-2019.git
