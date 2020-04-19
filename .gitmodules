@@ -10,3 +10,6 @@
 [submodule "intro-bootcamp-2019"]
 	path = intro-bootcamp-2019
 	url = https://github.com/tomtomdurrant/intro-bootcamp-2019.git
+[submodule "tax_calculator"]
+	path = tax_calculator
+	url = https://github.com/tomtomdurrant/tax_calculator.git
