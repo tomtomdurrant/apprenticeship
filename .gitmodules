@@ -13,3 +13,6 @@
 [submodule "tax_calculator"]
 	path = tax_calculator
 	url = https://github.com/tomtomdurrant/tax_calculator.git
+[submodule "Exam/Sample-Code"]
+	path = Exam/Sample-Code
+	url = https://github.com/tomtomdurrant/Sample-Code.git
