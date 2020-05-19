@@ -16,3 +16,6 @@
 [submodule "Exam/Sample-Code"]
 	path = Exam/Sample-Code
 	url = https://github.com/tomtomdurrant/Sample-Code.git
+[submodule "bootcamp-7/trip-service-kata"]
+	path = bootcamp-7/trip-service-kata
+	url = https://github.com/tomtomdurrant/trip-service-kata.git
