@@ -1,7 +1,5 @@
 # Bootcamp 7 - Testing Pyramid
 
-What is a tester? There are many different types of tester, with different names.
-
 ISO9001 is a standard to ensure quality
 
 Automated tests allow testers to focus more on the high value exploratory testing rather than the basic stuff. Automated testing goes hand in hand with agile development. 
@@ -108,6 +106,8 @@ This gives you a false sense of confidence that your tests and everything is ok 
 
 e.g. mocking a Date function - the implementation might change at some point in the future. 
 
+You can create a class which inherits from the class under test and then override the specific method under test. This is the foundation for all mock frameworks. 
+
 #### What you should do
 
 Create a seam/wrapper object that you can control so you can mock it.
@@ -126,47 +126,36 @@ Some tests are very helpful but too many can be inefficient
 
 **Selenium IDE** - ability to automate selenium.
 
-
+Don't do it. It's bad.
 
 ## Links
 
-What makes a good test?
-https://www.maxpou.fr/10-tips-write-better-tests
+| Title                   | Link                                                         |
+| ----------------------- | ------------------------------------------------------------ |
+| What makes a good test? | https://www.maxpou.fr/10-tips-write-better-tests             |
+| Contract Testing        | https://docs.pact.io/<br />https://github.com/pact-foundation/pact-net |
+| Usability Testing       | https://uxdesign.cc/10-usability-heuristics-every-designer-should-know-129b9779ac53<br />https://www.interaction-design.org/literature/topics/usability |
+| Acceptance Testing      | https://danashby.co.uk/2016/08/23/acceptance-testing-what-does-it-mean/<br/>https://www.developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too/<br/>[Dave Farley talk](https://youtu.be/SBhgteA2szg) |
+| BDD - Cucumber          | http://docs.cucumber.io/                                     |
+| Exploratory Testing     | https://www.satisfice.com/exploratory-testing                |
 
-Contract testing
-https://docs.pact.io/
-https://sendgrid.com/blog/quickly-prototype-apis-apiary/
-https://help.apiary.io/tools/mock-server/
-
-Usability Testing
-https://uxdesign.cc/10-usability-heuristics-every-designer-should-know-129b9779ac53
-https://www.interaction-design.org/literature/topics/usability
-
-Acceptance Testing
-https://danashby.co.uk/2016/08/23/acceptance-testing-what-does-it-mean/
-https://www.developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too/
-https://youtu.be/SBhgteA2szg 
-
-BDD - Cucumber
-[docs.cucumber.io](http://docs.cucumber.io/)
-
-Exploratory Testing
-https://www.satisfice.com/exploratory-testing
-
-Test doubles, fakes, mocks and stubs
+### Test doubles, fakes, mocks and stubs
 
 https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da?gi=e45b923fe226
-
-https://kata-log.rocks/starter
-
-https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/master/python
-
-https://understandlegacycode.com/blog/3-steps-to-add-tests-on-existing-code-when-you-have-short-deadlines/
-
-https://www.youtube.com/watch?v=8bZh5LMaSmE
 
 https://martinfowler.com/articles/mocksArentStubs.html
 
+
+
+### Katas & Working with legacy code
+
+https://kata-log.rocks/starter
+
+https://github.com/emilybache/GildedRose-Refactoring-Kata
+
+https://understandlegacycode.com/blog/3-steps-to-add-tests-on-existing-code-when-you-have-short-deadlines/
+
 https://github.com/sandromancuso/trip-service-kata
 
-https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da?gi=e45b923fe226
+https://www.youtube.com/watch?v=8bZh5LMaSmE
+
