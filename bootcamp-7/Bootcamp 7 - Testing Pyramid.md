@@ -138,6 +138,7 @@ Don't do it. It's bad.
 | Acceptance Testing      | https://danashby.co.uk/2016/08/23/acceptance-testing-what-does-it-mean/<br/>https://www.developsense.com/blog/2010/08/acceptance-tests-lets-change-the-title-too/<br/>[Dave Farley talk](https://youtu.be/SBhgteA2szg) |
 | BDD - Cucumber          | http://docs.cucumber.io/                                     |
 | Exploratory Testing     | https://www.satisfice.com/exploratory-testing                |
+| Test Pyramid            | https://martinfowler.com/articles/practical-test-pyramid.html |
 
 ### Test doubles, fakes, mocks and stubs
 
