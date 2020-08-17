@@ -22,3 +22,6 @@
 [submodule "bootcamp-8-security"]
 	path = bootcamp-8-security
 	url = https://github.com/tomtomdurrant/bootcamp-8-security.git
+[submodule "hack-day-project"]
+	path = hack-day-project
+	url = https://github.com/tomtomdurrant/hack-day-project.git
