@@ -25,3 +25,6 @@
 [submodule "hack-day-project"]
 	path = hack-day-project
 	url = https://github.com/tomtomdurrant/hack-day-project.git
+[submodule "apprentice-boot-camp-improving-code"]
+	path = apprentice-boot-camp-improving-code
+	url = https://github.com/tomtomdurrant/apprentice-boot-camp-improving-code.git
